@@ -50,5 +50,5 @@ test('Fieldmagic Default Page / Jobs Page', async ({ page }) => {
     //Check if the job was created successfully by verifying the success message.
     await expect(page.getByText('Record has been created successfully!')).toHaveText('Record has been created successfully!');
     
-    await page.pause(); // Pause to allow for manual interaction if needed
+    //await page.pause(); // Pause to allow for manual interaction if needed
 });
